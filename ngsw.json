@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.4bc33d0d752c84b0f3ae.js",
+        "/polyfills.7a0e6866a34e280f48e7.js",
+        "/runtime.a66f828dca56eeb90e02.js",
+        "/styles.3863cb28eaf49e7c310d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/imgs/chick.jpg",
+        "/assets/images/imgs/dairy-cattle.jpg",
+        "/assets/images/imgs/fishmeal.jpg",
+        "/assets/images/imgs/tilapia.jpg",
+        "/assets/images/logos/ebs.png",
+        "/assets/images/logos/ebs.svg",
+        "/assets/images/logos/logo.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/icon-128x128.png": "ea68669f4c8dc755d605a866f443f9f3df6c5fc4",
+    "/assets/icons/icon-144x144.png": "46fe8c2a34e6c209e216a69ba734ca0632e38267",
+    "/assets/icons/icon-152x152.png": "d9675d5f1fefbac9731b46ce4ac711730b11809a",
+    "/assets/icons/icon-192x192.png": "5f9a85d3c41a25d7ee7e5513b66c757957158238",
+    "/assets/icons/icon-384x384.png": "52115fb1972d6d8bcf01cda53963c10e3812aa1f",
+    "/assets/icons/icon-512x512.png": "cae26f2f9a41a868f09dd1e727847eb31810331e",
+    "/assets/icons/icon-72x72.png": "49af4a59204756c46a7002074ab145b15858fa35",
+    "/assets/icons/icon-96x96.png": "a11968547eda386951f7270231ac2986cec39e16",
+    "/assets/images/imgs/chick.jpg": "4f643693db58cfbd036bfc7233fefafa545ee845",
+    "/assets/images/imgs/dairy-cattle.jpg": "b4015e9691cd8fb4bab368c17b21b488ee46718d",
+    "/assets/images/imgs/fishmeal.jpg": "8a811604a5580bee665c8492979157fe1fe37b94",
+    "/assets/images/imgs/tilapia.jpg": "9e1f62dace55de37dd5f0c33ae0659caf7022608",
+    "/assets/images/logos/ebs.png": "1ef1512a71d64b6eba5fd93063fec1d316a137fd",
+    "/assets/images/logos/ebs.svg": "a126efc640e663ed736ceb24cc869ce755f24f69",
+    "/assets/images/logos/logo.svg": "d44a47649e8856d46ada568b6bcbadc266dadb1f",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/index.html": "ebf579a89f398fc65c105e235250f25446e43099",
+    "/main.4bc33d0d752c84b0f3ae.js": "dcb6790793e2d4dac9ea1aec5305ab0d3dc242ce",
+    "/polyfills.7a0e6866a34e280f48e7.js": "9f0b8341c0a0caec1581da2f255eb5dbb8e12303",
+    "/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/styles.3863cb28eaf49e7c310d.css": "ca17a3db43186a9982d37c38858d8dd0b7514ddc"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
